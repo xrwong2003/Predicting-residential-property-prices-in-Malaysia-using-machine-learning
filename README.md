@@ -31,8 +31,9 @@ This model can be used to:
 
 ## 🔍 Exploratory Data Analysis (EDA)
 
-- 🧾 Price data was highly **right-skewed** — we applied **log transformation** to normalize it.
-- 📈 `Size`, `Median_PSF`, and `Transactions` showed strong correlations with price.
+- 🧾 Property prices were highly **right-skewed**, so we applied **log transformation** to normalize the target (`log_price`).
+- 📈 `Median_PSF` showed a strong positive correlation (**0.70**) with `log_price`, indicating it's a key driver of property value.
+- 🔍 `Transactions` had a weak correlation (**0.035**), suggesting transaction volume alone doesn't strongly influence price.
 - 📦 Box plots and one-hot encoding were used to analyze price variations across:
   - Location (`State`, `Area`)
   - Property type (`Type`)
@@ -105,8 +106,6 @@ This project successfully built a working property price prediction model using 
 - `scikit-learn`
 
 ---
-
-## 📁 Project Structure
 
 ## 📁 Project Structure
 
