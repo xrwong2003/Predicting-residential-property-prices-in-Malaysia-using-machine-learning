@@ -109,12 +109,16 @@ This project successfully built a working property price prediction model using 
 ## 📁 Project Structure
 
 kl-property-price-predictor/
+│
 ├── data/
-│ └── malaysia_house_price_data_2025.csv
+│   └── malaysia_house_price_data_2025.csv   # 📊 Dataset file
+│
 ├── notebooks/
-│ └── property_price_prediction.ipynb
-├── README.md
-└── requirements.txt
+│   └── [probably additional notebooks here]  # 📓 Jupyter notebook storage (empty or placeholder for now)
+│
+├── property_price_prediction.ipynb          # 🧠 Main notebook for your ML project
+├── README.md                                # 📘 Project description and instructions
+└── requirements.txt                         # 📦 Python dependencies
 
 ---
 
